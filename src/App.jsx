@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Navigator from "./components/Navigator";
 import CardProduct from "./components/Cardproduct";
 import { ProductStore } from "./context/ProductsContext";
-
+import "./App.css"
 function App() {
   const {products}=useContext(ProductStore)
   return (

@@ -14,6 +14,8 @@ function Navigator() {
           <Nav className="me-auto ">
             <Link to="/add" className='p-3'>Addproduct</Link>
             <Link to="/" className='p-3'>home</Link>
+            <Link to="/products" className='p-3'>allProds</Link>
+
     
           </Nav>
         </Container>
